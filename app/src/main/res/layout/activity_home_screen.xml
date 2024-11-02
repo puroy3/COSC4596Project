@@ -17,7 +17,7 @@
         android:layout_marginBottom="16dp"
         android:text="Quizzie"
         android:textSize="96sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/loginButton1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,7 +40,7 @@
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/loginButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -49,12 +49,12 @@
         android:layout_marginBottom="305dp"
         android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/signUpButton1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/signUpButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="265dp"
